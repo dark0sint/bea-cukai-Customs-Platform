@@ -1,0 +1,3 @@
+github.com/bytedance/sonic v1.9.1 h1:2xjl5OU6sbkBMWzQ4Gba9PpmrOBZ9fR8N2Y2R9kF9Jo=
+github.com/bytedance/sonic/... (truncated for brevity; run `go mod tidy` to generate full)
+github.com/gin-gonic/gin v1.9.1 h1:4+fr/qtgn/6fpH24zvw7s2P0oc4q4nB7Qd5Z4mM2W2I=
