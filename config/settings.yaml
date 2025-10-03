@@ -1,0 +1,8 @@
+app:
+  name: "Customs Platform"
+  debug: true
+  backend_port: 5000
+  frontend_port: 8080
+database:
+  type: "sqlite"
+  file: "backend/database.db"
