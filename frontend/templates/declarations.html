@@ -1,0 +1,13 @@
+    {{ define "content" }}
+    <h1>Customs Declarations</h1>
+    {{ if .Declarations }}
+        <ul>
+        {{ range .Declarations }}
+            <li>{{ .CargoType }} - Value: ${{ .Value }}</li>
+        {{ end }}
+        </ul>
+    {{ else }}
+        <p>No declarations found.</p>
+    {{ end }}
+    {{ end }}
+    
